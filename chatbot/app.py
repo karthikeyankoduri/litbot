@@ -4,7 +4,7 @@ from openai import OpenAI
 # Initialize OpenAI client with OpenRouter config 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
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",
+    api_key="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",
 )
 
 st.title("OpenRouter Chatbot")
